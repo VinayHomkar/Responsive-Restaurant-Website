@@ -66,6 +66,28 @@ nav{
     color: #fff;
     align-self: flex-start;
 }
+
+.features{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 20px;
+    justify-content:center;
+}
+.feature{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.25s ease-in-out;
+}
+.feature:hover{
+    transition: 0.25s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.25);
+}
+.divider{
+    border: 2px solid gray;
+    margin: 20px 0;
+}
 @media (max-width:780px) {
     .hero{
         flex-direction: column;
